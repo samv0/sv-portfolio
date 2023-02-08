@@ -175,9 +175,13 @@
 
   img {
     margin-top: 1rem;
-    width: 400px;
+    width: 100%;
     object-fit: contain;
     z-index: 1;
+
+    @media screen and (min-width: 1400px) {
+      height: 110%
+    }
   }
 
   .overlay_circle {
