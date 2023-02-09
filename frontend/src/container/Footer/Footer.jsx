@@ -12,6 +12,10 @@ const Footer = () => {
           <img src={images.email} alt="email" />
           <a href="mailto:contact@samvinh.com" className="p-text">contact@samvinh.com</a>
         </div>
+        <div className="app__footer-card ">
+          <img src={images.resume} alt="resume" />
+          <a href="https://resume.samvinh.com" className="p-text">View my resume</a>
+        </div>
       </div>
     </div>
   )
